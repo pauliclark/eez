@@ -14,7 +14,9 @@
     "start": "yarn nodemon sample.js DEV"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "get-port": "^5.1.1",
+    "hbs": "^4.1.1"
   },
   "devDependencies": {
     "eslint": "^7.12.1",
