@@ -1,5 +1,5 @@
 {
-  "name": "eez",
+  "name": "@pauliclark/eez",
   "version": "1.0.0",
   "description": "Base server",
   "main": "index.js",
