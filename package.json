@@ -3,9 +3,16 @@
   "version": "1.0.0",
   "description": "Base server",
   "main": "index.js",
-  "repository": "https://github.com/pauliclark/eez.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pauliclark/eez.git"
+  },
   "author": "pauliclark <paul@piclark.uk>",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pauliclark/eez/issues"
+  },
+  "homepage": "https://github.com/pauliclark/eez#readme",
   "type": "module",
   "engines": {
     "node": ">=14"
