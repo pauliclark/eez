@@ -32,8 +32,9 @@ const init = async ({
     logger.error(e)
   }
   const app = express()
-  app.set('view engine', 'html')
-  app.engine('html', hbs.__express)
+  app.set('view engine', 'hbs')
+  app.engine('hbs', hbs.__express)
+  app.use(express.json())
   setApp(app)
   try {
     await afterApp()
