@@ -1,6 +1,6 @@
 {
   "name": "@pauliclark/eez",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Base server",
   "main": "index.js",
   "repository": {
